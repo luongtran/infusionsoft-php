@@ -1,4 +1,5 @@
-<?php namespace Infusionsoft\Api\Rest;
+<?php 
+namespace Infusionsoft\Api\Rest;
 
 use ArrayAccess;
 use JsonSerializable;
