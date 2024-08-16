@@ -513,6 +513,15 @@ class Infusionsoft
     }
 
     /**
+     * @return \Infusionsoft\Api\TagService
+     */
+
+    public function tags()
+    {
+        return $this->getApi('TagService');
+    }
+
+    /**
      * @return \Infusionsoft\Api\DataService
      */
     public function data()
