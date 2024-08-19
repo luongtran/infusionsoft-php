@@ -18,7 +18,7 @@
         "ext-curl": "*",
         "guzzlehttp/guzzle": "~6.1",
         "lstrojny/fxmlrpc": "~0.10",
-        "egeloen/http-adapter": "0.7.0",
+        "luongtran/http-adapter": "0.7.0",
         "psr/log": "~1.0"
     },
     "require-dev": {
