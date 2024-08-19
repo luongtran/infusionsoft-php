@@ -16,7 +16,7 @@
     "require": {
         "php": ">=5.5",
         "ext-curl": "*",
-        "guzzlehttp/guzzle": "~6.0",
+        "luongtran/guzzle": "~6.0",
         "lstrojny/fxmlrpc": "~0.10",
         "egeloen/http-adapter": "~0.6",
         "psr/log": "~1.0"
