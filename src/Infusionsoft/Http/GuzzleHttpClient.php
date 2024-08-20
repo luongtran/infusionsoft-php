@@ -3,7 +3,8 @@
 namespace Infusionsoft\Http;
 
 use fXmlRpc\Transport\HttpAdapterTransport;
-use GuzzleHttp\Client;
+#use GuzzleHttp\Client;
+use Guzzle\Http\Client;
 use GuzzleHttp\Exception\BadResponseException;
 use GuzzleHttp\HandlerStack;
 use GuzzleHttp\MessageFormatter;

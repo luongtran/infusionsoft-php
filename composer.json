@@ -17,6 +17,7 @@
         "php": ">=5.5",
         "ext-curl": "*",
         "guzzlehttp/guzzle": "~6.1",
+        "guzzle/guzzle": "^3.9.2",
         "lstrojny/fxmlrpc": "~0.10",
         "luongtran/http-adapter": "0.7.0",
         "psr/log": "~1.0"
