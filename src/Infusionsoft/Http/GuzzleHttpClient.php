@@ -8,7 +8,7 @@ use GuzzleHttp\Exception\BadResponseException;
 use GuzzleHttp\HandlerStack;
 use GuzzleHttp\MessageFormatter;
 use GuzzleHttp\Psr7\Request;
-use Ivory\HttpAdapter\Guzzle6HttpAdapter;
+use Ivory\HttpAdapter\GuzzleHttpAdapter;
 use GuzzleHttp\Middleware;
 use Psr\Log\LoggerInterface;
 
@@ -39,7 +39,7 @@ class GuzzleHttpClient extends Client implements ClientInterface
      */
     public function getXmlRpcTransport()
     {
-        return new HttpAdapterTransport(new Guzzle6HttpAdapter($this));
+        return new HttpAdapterTransport(new GuzzleHttpAdapter($this));
     }
 
     /**
