@@ -3,15 +3,15 @@
 namespace Infusionsoft\Http;
 
 use fXmlRpc\Transport\HttpAdapterTransport;
-#use GuzzleHttp\Client;
-use Guzzle\Http\Client;
+use GuzzleHttp\Client;
+#use Guzzle\Http\Client;
 use GuzzleHttp\Exception\BadResponseException;
 #use Guzzle\Http\Exception\BadResponseException;
 use GuzzleHttp\HandlerStack;
 use GuzzleHttp\MessageFormatter;
-#use GuzzleHttp\Psr7\Request;
-use Guzzle\Http\Message\Request;
-use Ivory\HttpAdapter\GuzzleHttpAdapter;
+use GuzzleHttp\Psr7\Request;
+#use Guzzle\Http\Message\Request;
+use Ivory\HttpAdapter\Guzzle6HttpAdapter;;
 use GuzzleHttp\Middleware;
 use Psr\Log\LoggerInterface;
 
@@ -42,7 +42,7 @@ class GuzzleHttpClient extends Client implements ClientInterface
      */
     public function getXmlRpcTransport()
     {
-        return new HttpAdapterTransport(new GuzzleHttpAdapter($this));
+        return new HttpAdapterTransport(new Guzzle6HttpAdapter($this));
     }
 
     /**

@@ -19,7 +19,7 @@
         "guzzlehttp/guzzle": "~6.1",
         "guzzle/guzzle": "^3.9.2",
         "lstrojny/fxmlrpc": "0.10",
-        "luongtran/http-adapter": "0.7.2",
+        "luongtran/http-adapter": "0.7.3",
         "psr/log": "~1.0"
     },
     "require-dev": {
